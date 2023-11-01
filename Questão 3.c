@@ -8,16 +8,16 @@
 
     for(int i = 0;i < 4;i++){
     for(int j = 0;j< 4;j++){
-    scanf("%d", &A[i][j]);
+    scanf("%*d", &A[i][j]);
     }
 }
     for(int i = 0;i < 4;i++){
     for(int j = 0;j < 4;j++){
-    scanf("%d", &B[i][j]);
+    scanf("%*d", &B[i][j]);
         }
     }
 
-    scanf("%s", operacao);
+    scanf("%*s", operacao);
     
     if (strcmp("soma", operacao) == 0){
     for(int i = 0;i < 4;i++){

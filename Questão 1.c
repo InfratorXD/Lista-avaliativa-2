@@ -11,7 +11,11 @@
     while(tamanho > 1){
 
     for(int i=0;i< tamanho;i++){
-        printf("%d ",valor[i]);
+        printf("%d",valor[i]);
+
+        if(i< tamanho - 1){
+            printf(" ");
+        }
     
     
     }
@@ -25,9 +29,7 @@
 tamanho--;
 
     }
-        printf("%d ",valor[0]);
-
-        printf("\n");
+        printf("%d\n",valor[0]);
 
         return 0;
     }
