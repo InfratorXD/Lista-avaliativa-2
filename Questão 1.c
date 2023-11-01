@@ -13,6 +13,7 @@
     for(int i=0;i< tamanho;i++){
         printf("%d ",valor[i]);
     
+    
     }
 
  printf("\n");
@@ -24,7 +25,9 @@
 tamanho--;
 
     }
-        printf("%d",valor[0]);
+        printf("%d ",valor[0]);
+
+        printf("\n");
 
         return 0;
     }
