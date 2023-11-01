@@ -15,7 +15,7 @@
     for(int i = 0;i<11;i++){
     scanf("%29[^;]; %c; %f%*c", time_a[i], &posicao1[i], &forca1);
     calculo1 += 8 * (posicao1[i] == 'G' ? forca1 : 0) + 10 * (posicao1[i] == 'L' ? forca1 : 0) + 5 * (posicao1[i] == 'Z' ? forca1 : 0) + 8 * (posicao1[i] == 'V' ? forca1 : 0) + 11 * (posicao1[i] == 'M' ? forca1 : 0) + 12 * (posicao1[i] == 'A' ? forca1 : 0);
-            }
+    }
 
     scanf("%29[^\n]%*c", nome_time2);
 
